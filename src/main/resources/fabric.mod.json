@@ -3,15 +3,15 @@
 	"id": "colorful-lamp",
 	"version": "${version}",
 	"name": "Colorful Lamp",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Add a vibrant touch to your server with Colorful Lamp! This server-side mod introduces craftable redstone lamps in every color of the rainbow, perfect for decorating your builds and lighting up your world with style.",
 	"authors": [
-		"Me!"
+		"Sun_Phoen1x"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/colorful-lamp/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -29,7 +29,10 @@
 		"fabricloader": ">=0.16.14",
 		"minecraft": "~1.21.1",
 		"java": ">=21",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"polymer-core": ">=0.9.18",
+		"polymer-resource-pack": ">=0.9.18",
+		"polymer-virtual-entity": ">=0.9.18"
 	},
 	"suggests": {
 		"another-mod": "*"

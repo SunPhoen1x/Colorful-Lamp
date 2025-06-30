@@ -15,21 +15,21 @@ import net.minecraft.util.Identifier;
 import static ua.phoen1x.ColorfulLamp.MOD_ID;
 
 public class ModBlocks {
-    public static final Block RED_LAMP = registerBlock("red_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP).luminance(state -> state.get(PolyRedstoneLamp.LIT) ? 15 : 0), "red_redstone_lamp"));
-    public static final Block YELLOW_LAMP = registerBlock("yellow_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP).luminance(state -> state.get(PolyRedstoneLamp.LIT) ? 15 : 0), "yellow_redstone_lamp"));
-    public static final Block GREEN_LAMP = registerBlock("green_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP).luminance(state -> state.get(PolyRedstoneLamp.LIT) ? 15 : 0), "green_redstone_lamp"));
-    public static final Block ORANGE_LAMP = registerBlock("orange_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP).luminance(state -> state.get(PolyRedstoneLamp.LIT) ? 15 : 0), "orange_redstone_lamp"));
-    public static final Block LIME_LAMP = registerBlock("lime_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP).luminance(state -> state.get(PolyRedstoneLamp.LIT) ? 15 : 0), "lime_redstone_lamp"));
-    public static final Block CYAN_LAMP = registerBlock("cyan_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP).luminance(state -> state.get(PolyRedstoneLamp.LIT) ? 15 : 0), "cyan_redstone_lamp"));
-    public static final Block BLUE_LAMP = registerBlock("blue_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP).luminance(state -> state.get(PolyRedstoneLamp.LIT) ? 15 : 0), "blue_redstone_lamp"));
-    public static final Block LIGHT_BLUE_LAMP = registerBlock("light_blue_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP).luminance(state -> state.get(PolyRedstoneLamp.LIT) ? 15 : 0), "light_blue_redstone_lamp"));
-    public static final Block PURPLE_LAMP = registerBlock("purple_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP).luminance(state -> state.get(PolyRedstoneLamp.LIT) ? 15 : 0), "purple_redstone_lamp"));
-    public static final Block MAGENTA_LAMP = registerBlock("magenta_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP).luminance(state -> state.get(PolyRedstoneLamp.LIT) ? 15 : 0), "magenta_redstone_lamp"));
-    public static final Block PINK_LAMP = registerBlock("pink_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP).luminance(state -> state.get(PolyRedstoneLamp.LIT) ? 15 : 0), "pink_redstone_lamp"));
-    public static final Block BROWN_LAMP = registerBlock("brown_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP).luminance(state -> state.get(PolyRedstoneLamp.LIT) ? 15 : 0), "brown_redstone_lamp"));
-    public static final Block BLACK_LAMP = registerBlock("black_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP).luminance(state -> state.get(PolyRedstoneLamp.LIT) ? 15 : 0), "black_redstone_lamp"));
-    public static final Block LIGHT_GRAY_LAMP = registerBlock("light_gray_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP).luminance(state -> state.get(PolyRedstoneLamp.LIT) ? 15 : 0), "light_gray_redstone_lamp"));
-    public static final Block WHITE_LAMP = registerBlock("white_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP).luminance(state -> state.get(PolyRedstoneLamp.LIT) ? 15 : 0), "white_redstone_lamp"));
+    public static final Block RED_LAMP = registerBlock("red_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP), "red_redstone_lamp"));
+    public static final Block YELLOW_LAMP = registerBlock("yellow_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP), "yellow_redstone_lamp"));
+    public static final Block GREEN_LAMP = registerBlock("green_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP), "green_redstone_lamp"));
+    public static final Block ORANGE_LAMP = registerBlock("orange_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP), "orange_redstone_lamp"));
+    public static final Block LIME_LAMP = registerBlock("lime_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP), "lime_redstone_lamp"));
+    public static final Block CYAN_LAMP = registerBlock("cyan_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP), "cyan_redstone_lamp"));
+    public static final Block BLUE_LAMP = registerBlock("blue_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP), "blue_redstone_lamp"));
+    public static final Block LIGHT_BLUE_LAMP = registerBlock("light_blue_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP), "light_blue_redstone_lamp"));
+    public static final Block PURPLE_LAMP = registerBlock("purple_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP), "purple_redstone_lamp"));
+    public static final Block MAGENTA_LAMP = registerBlock("magenta_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP), "magenta_redstone_lamp"));
+    public static final Block PINK_LAMP = registerBlock("pink_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP), "pink_redstone_lamp"));
+    public static final Block BROWN_LAMP = registerBlock("brown_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP), "brown_redstone_lamp"));
+    public static final Block BLACK_LAMP = registerBlock("black_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP), "black_redstone_lamp"));
+    public static final Block LIGHT_GRAY_LAMP = registerBlock("light_gray_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP), "light_gray_redstone_lamp"));
+    public static final Block WHITE_LAMP = registerBlock("white_redstone_lamp", new PolyRedstoneLamp(Block.Settings.copy(Blocks.REDSTONE_LAMP), "white_redstone_lamp"));
 
     public static final BlockItem RED_LAMP_ITEM = registerBlockItem("red_redstone_lamp", new TexturedPolyBlockItem(RED_LAMP, new Item.Settings(), "block/red_redstone_lamp_off"));
     public static final BlockItem YELLOW_LAMP_ITEM = registerBlockItem("yellow_redstone_lamp", new TexturedPolyBlockItem(YELLOW_LAMP, new Item.Settings(), "block/yellow_redstone_lamp_off"));

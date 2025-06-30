@@ -23,7 +23,8 @@ public class PolyRedstoneLamp extends RedstoneLampBlock implements PolymerTextur
     public static final BooleanProperty LIT = Properties.LIT;
 
     public PolyRedstoneLamp(Settings settings, String path) {
-        super(settings);
+        super(settings.luminance(state -> state.get(LIT) ? 15 : 0));
+
         this.modelOn = PolymerBlockResourceUtils.requestBlock(
                 BlockModelType.FULL_BLOCK,
                 PolymerBlockModel.of(Identifier.of(ColorfulLamp.MOD_ID, "block/" + path + "_on"))
