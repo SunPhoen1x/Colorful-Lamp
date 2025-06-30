@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "colorful-lamp:block/yellow_redstone_lamp_off"
+    },
+    "lit=true": {
+      "model": "colorful-lamp:block/yellow_redstone_lamp_on"
+    }
+  }
+}

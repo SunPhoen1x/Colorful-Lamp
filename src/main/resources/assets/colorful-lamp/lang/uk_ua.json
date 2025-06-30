@@ -1,0 +1,18 @@
+{
+    "block.colorful-lamp.red_redstone_lamp": "Червона редстоунова лампа",
+    "block.colorful-lamp.yellow_redstone_lamp": "Жовта редстоунова лампа",
+    "block.colorful-lamp.green_redstone_lamp": "Зелена редстоунова лампа",
+    "block.colorful-lamp.orange_redstone_lamp": "Помаранчева редстоунова лампа",
+    "block.colorful-lamp.lime_redstone_lamp": "Лаймова редстоунова лампа",
+    "block.colorful-lamp.cyan_redstone_lamp": "Бірюзова редстоунова лампа",
+    "block.colorful-lamp.blue_redstone_lamp": "Синя редстоунова лампа",
+    "block.colorful-lamp.light_blue_redstone_lamp": "Світло-синя редстоунова лампа",
+    "block.colorful-lamp.purple_redstone_lamp": "Фіолетова редстоунова лампа",
+    "block.colorful-lamp.magenta_redstone_lamp": "Пурпурова редстоунова лампа",
+    "block.colorful-lamp.pink_redstone_lamp": "Рожева редстоунова лампа",
+    "block.colorful-lamp.brown_redstone_lamp": "Коричнева редстоунова лампа",
+    "block.colorful-lamp.black_redstone_lamp": "Чорна редстоунова лампа",
+    "block.colorful-lamp.light_gray_redstone_lamp": "Світло-сіра редстоунова лампа",
+    "block.colorful-lamp.white_redstone_lamp": "Біла редстоунова лампа",
+    "item-group.colorful-lamp.blocks": "Colorful Lamps"
+}
