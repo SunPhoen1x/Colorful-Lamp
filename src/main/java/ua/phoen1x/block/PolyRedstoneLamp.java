@@ -16,6 +16,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import ua.phoen1x.ColorfulLamp;
+import xyz.nucleoid.packettweaker.PacketContext;
 
 public class PolyRedstoneLamp extends RedstoneLampBlock implements PolymerTexturedBlock {
     private final BlockState modelOn;
@@ -50,7 +51,7 @@ public class PolyRedstoneLamp extends RedstoneLampBlock implements PolymerTextur
     }
 
     @Override
-    public BlockState getPolymerBlockState(BlockState state) {
+    public BlockState getPolymerBlockState(BlockState state, PacketContext context) {
         return state.get(LIT) ? modelOn : modelOff;
     }
 }
