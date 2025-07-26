@@ -1,8 +1,8 @@
 package ua.phoen1x.datagen;
 
+import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
-import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
-import net.minecraft.data.client.*;
+import net.minecraft.client.data.*;
 import net.minecraft.state.property.Properties;
 import net.minecraft.util.Identifier;
 import ua.phoen1x.ColorfulLamp;
@@ -42,7 +42,7 @@ public class ModModelProvider extends FabricModelProvider {
                 VariantsBlockStateSupplier.create(block)
                         .coordinate(BlockStateModelGenerator.createBooleanModelMap(Properties.LIT, modelOnId, modelOffId))
         );
-        blockStateModelGenerator.registerParentedItemModel(block.asItem(), modelOffId);
+        blockStateModelGenerator.registerParentedItemModel(block, modelOffId);
     }
 
     @Override
