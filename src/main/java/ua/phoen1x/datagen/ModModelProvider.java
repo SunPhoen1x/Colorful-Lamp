@@ -39,8 +39,10 @@ public class ModModelProvider extends FabricModelProvider {
         Identifier modelOffId = blockStateModelGenerator.createSubModel(block, "_off", Models.CUBE_ALL, texture -> new TextureMap().put(TextureKey.ALL, textureOff));
         Identifier modelOnId = blockStateModelGenerator.createSubModel(block, "_on", Models.CUBE_ALL, texture -> new TextureMap().put(TextureKey.ALL, textureOn));
         blockStateModelGenerator.blockStateCollector.accept(
-                VariantsBlockStateSupplier.create(block)
-                        .coordinate(BlockStateModelGenerator.createBooleanModelMap(Properties.LIT, modelOnId, modelOffId))
+                VariantsBlockModelDefinitionCreator.of(block)
+                        .with(BlockStateModelGenerator.createBooleanModelMap(Properties.LIT,
+                                BlockStateModelGenerator.createWeightedVariant(modelOnId),
+                                BlockStateModelGenerator.createWeightedVariant(modelOffId)))
         );
         blockStateModelGenerator.registerParentedItemModel(block, modelOffId);
     }
