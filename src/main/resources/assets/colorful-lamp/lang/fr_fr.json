@@ -1,0 +1,18 @@
+{
+  "block.colorful-lamp.red_redstone_lamp": "Lampe de redstone rouge",
+  "block.colorful-lamp.yellow_redstone_lamp": "Lampe de redstone jaune",
+  "block.colorful-lamp.green_redstone_lamp": "Lampe de redstone verte",
+  "block.colorful-lamp.orange_redstone_lamp": "Lampe de redstone orange",
+  "block.colorful-lamp.lime_redstone_lamp": "Lampe de redstone vert clair",
+  "block.colorful-lamp.cyan_redstone_lamp": "Lampe de redstone cyan",
+  "block.colorful-lamp.blue_redstone_lamp": "Lampe de redstone bleue",
+  "block.colorful-lamp.light_blue_redstone_lamp": "Lampe de redstone bleu clair",
+  "block.colorful-lamp.purple_redstone_lamp": "Lampe de redstone violette",
+  "block.colorful-lamp.magenta_redstone_lamp": "Lampe de redstone magenta",
+  "block.colorful-lamp.pink_redstone_lamp": "Lampe de redstone rose",
+  "block.colorful-lamp.brown_redstone_lamp": "Lampe de redstone marron",
+  "block.colorful-lamp.black_redstone_lamp": "Lampe de redstone noire",
+  "block.colorful-lamp.light_gray_redstone_lamp": "Lampe de redstone gris clair",
+  "block.colorful-lamp.white_redstone_lamp": "Lampe de redstone blanche",
+  "item-group.colorful-lamp.blocks": "Lampes colorées"
+}
